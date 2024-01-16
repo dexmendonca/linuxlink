@@ -9,4 +9,4 @@ cd ./tmp
 git clone https://aur.archlinux.org/yay-bin yb
 cd ./yb
 makepkg -s
-sudo pacman -U *.pkg.*
+sudo pacman -U *.pkg.* --noconfirm
