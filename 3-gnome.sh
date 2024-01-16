@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "Config gnome packages"
+echo "3- Config gnome packages"
 sudo pacman -R totem gnome-music --noconfirm

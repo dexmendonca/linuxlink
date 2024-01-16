@@ -1,5 +1,5 @@
 #!/bin/bash
 
-./01-pre.sh
-./02-git.sh
-./03-gnome.sh
+./1-pre.sh
+./2-git.sh
+./3-gnome.sh
