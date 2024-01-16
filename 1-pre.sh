@@ -8,4 +8,5 @@ mkdir ./tmp
 cd ./tmp
 git clone https://aur.archlinux.org/yay-bin yb
 cd ./yb
-makepkg -si
+makepkg -s
+sudo pacman -U *.pkg.*
