@@ -1,3 +1,3 @@
 #!/bin/bash
-
-sudo pacman -S base base-devel git --noconfirm
+echo "Installing Base packages"
+sudo pacman -S base base-devel net-tools --noconfirm
