@@ -2,6 +2,7 @@
 
 echo "2- Installing GIT"
 echo "    2.1- Running GIT Script"
+git config --global init.defaultBranch main
 git config --global core.editor "nano"
 git config --global user.name "André Mendonça e Silva"
-git config --global user.email dexmendoncadev@gmail.com
+git config --global user.email "dexmendoncadev@gmail.com"
